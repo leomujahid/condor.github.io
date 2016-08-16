@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="script.js"></script>
+	<title>Mujahid Khalid</title>
+<style type="text/css">
+	html, body {
+  background-color: #e84195;
+  color: #fff;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  /*font: 500 16px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  text-align: center; }
+  .gradients {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+
+.gradients div {
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+
+.pink {
+  background: #fc963f;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #e02d6f), color-stop(100%, #fc963f));
+  background: -webkit-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+  background: -moz-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+  background: -o-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+  background: -ms-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+  background: linear-gradient(top, #e02d6f 0%, #fc963f 100%); }
+
+.purple {
+  background: #edaa9c;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #8217b7), color-stop(100%, #edaa9c));
+  background: -webkit-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+  background: -moz-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+  background: -o-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+  background: -ms-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+  background: linear-gradient(top, #8217b7 0%, #edaa9c 100%); }
+
+.blue {
+  background: #05c6d1;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #194fb8), color-stop(100%, #05c6d1));
+  background: -webkit-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: -moz-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: -o-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: -ms-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+  background: linear-gradient(top, #194fb8 0%, #05c6d1 100%); }
+
+.green {
+  background: #e7dd4b;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #44cd9e), color-stop(100%, #e7dd4b));
+  background: -webkit-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+  background: -moz-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+  background: -o-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+  background: -ms-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+  background: linear-gradient(top, #44cd9e 0%, #e7dd4b 100%); }
+
+.mint {
+  background: #dfcee5;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #0fa9a8), color-stop(100%, #dfcee5));
+  background: -webkit-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+  background: -moz-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+  background: -o-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+  background: -ms-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+  background: linear-gradient(top, #0fa9a8 0%, #dfcee5 100%); }
+
+.beach {
+  background: #e5d8b9;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #2cbedf), color-stop(100%, #e5d8b9));
+  background: -webkit-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+  background: -moz-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+  background: -o-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+  background: -ms-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+  background: linear-gradient(top, #2cbedf 0%, #e5d8b9 100%); }
+
+.current {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0; }
+
+.pattern {
+  -moz-opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  background-size: 1023px 1009px;
+  height: 100%;
+  position: absolute;
+  width: 100%; }
+
+#hplogo {
+  margin: 0 auto;
+  top: 37%;
+  /*top: 50%;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*background: url("2010/particle-hp.png") no-repeat center;*/
+  height:110px;
+  /*-moz-opacity: 1;*/
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";*/
+  /*filter: alpha(opacity=100);*/
+  /*opacity: 1;*/
+  /*background-size: 1023px 1009px;*/
+  /*height: 100%;*/
+  /*position: absolute;*/
+  z-index: 1000;
+  position: relative;
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*margin-right: -50%;*/
+  /*transform: translatate(-50%, -50%);*/
+  /*margin-top: 100px;*/
+  /*width: 100%; }*/
+  width: 502px; }
+
+.circle {
+  opacity: 0.7;
+  -webkit-border-radius: 160px;
+  -khtml-border-radius: 160px;
+  -moz-border-radius: 160px;
+  border-radius: 160px; }
+
+  h1 {
+  background: url('mujahid.png') no-repeat;
+  background-position: center center;
+  background-size: 476px 136px;
+  height: 136px;
+  margin: 0 auto;
+  top: 31%;
+  /*margin: 60px 0 0 0;*/
+  padding: 0;
+  position: absolute;
+  text-indent: -100000px;
+  width: 100%; }
+
+  footer {
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 60px;
+  width: 100%; }
+
+footer .app-store {
+  padding-right: 20px; }
+
+footer .google-play {
+  padding-left: 20px; }
+
+footer a, footer img {
+  border: 0px;
+  text-decoration: none; }
+
+footer p {
+  font-size: 17px;
+  -moz-opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  opacity: 0.8; }
+  
+a:link    {
+  color: white; }
+
+a:visited {
+  color: white; }
+
+a:hover   {
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0,0,0,.2);
+ }
+
+a:active  {
+  color: white; }
+
+</style>
+
+</head>
+<body>
+
+
+<!--Gradient part-->
+<body class="site">
+<div class="gradients">
+<div class="green"></div>
+
+<div class="blue"></div>
+
+<div class="beach"></div>
+
+<div class="beach"></div>
+
+<div class="mint"></div>
+
+<div class="pink"></div>
+
+<div class="purple current"></div>
+</div>
+<!-- <div class="pattern"></div> -->
+
+<h1>Mujahid Khalid</h1>
+
+<footer>
+<p><a href="https://www.facebook.com/MJZaeem">Facebook</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.snapchat.com/add/leo-mujahid">Snapchat</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.instagram.com/leo_mujahid/">Instagram</a></p>
+</footer>
+<script src="jquery-3.1.0.js"></script>
+
+<script>	
+
+    $(function() {
+	
+	var container = $('.gradients');
+
+	function fade() {
+
+		var divs = container.children();
+
+		$(".current").transition({opacity: 1}, 5000, 'linear', function() {
+			$('.current').removeClass('current');
+			firstDiv = divs.first();
+			firstDiv.addClass('current').css({opacity: 0});
+			firstDiv.appendTo(container);
+			fade();
+		});
+	}
+
+	fade();
+
+});
+    (function(t,e){if(typeof define==="function"&&define.amd){define(["jquery"],e)}else if(typeof exports==="object"){module.exports=e(require("jquery"))}else{e(t.jQuery)}})(this,function(t){t.transit={version:"0.9.11",propertyMap:{marginLeft:"margin",marginRight:"margin",marginBottom:"margin",marginTop:"margin",paddingLeft:"padding",paddingRight:"padding",paddingBottom:"padding",paddingTop:"padding"},enabled:true,useTransitionEnd:false};var e=document.createElement("div");var n={};function i(t){if(t in e.style)return t;var n=["Moz","Webkit","O","ms"];var i=t.charAt(0).toUpperCase()+t.substr(1);for(var r=0;r<n.length;++r){var s=n[r]+i;if(s in e.style){return s}}}function r(){e.style[n.transform]="";e.style[n.transform]="rotateY(90deg)";return e.style[n.transform]!==""}var s=navigator.userAgent.toLowerCase().indexOf("chrome")>-1;n.transition=i("transition");n.transitionDelay=i("transitionDelay");n.transform=i("transform");n.transformOrigin=i("transformOrigin");n.filter=i("Filter");n.transform3d=r();var a={transition:"transitionend",MozTransition:"transitionend",OTransition:"oTransitionEnd",WebkitTransition:"webkitTransitionEnd",msTransition:"MSTransitionEnd"};var o=n.transitionEnd=a[n.transition]||null;for(var u in n){if(n.hasOwnProperty(u)&&typeof t.support[u]==="undefined"){t.support[u]=n[u]}}e=null;t.cssEase={_default:"ease","in":"ease-in",out:"ease-out","in-out":"ease-in-out",snap:"cubic-bezier(0,1,.5,1)",easeInCubic:"cubic-bezier(.550,.055,.675,.190)",easeOutCubic:"cubic-bezier(.215,.61,.355,1)",easeInOutCubic:"cubic-bezier(.645,.045,.355,1)",easeInCirc:"cubic-bezier(.6,.04,.98,.335)",easeOutCirc:"cubic-bezier(.075,.82,.165,1)",easeInOutCirc:"cubic-bezier(.785,.135,.15,.86)",easeInExpo:"cubic-bezier(.95,.05,.795,.035)",easeOutExpo:"cubic-bezier(.19,1,.22,1)",easeInOutExpo:"cubic-bezier(1,0,0,1)",easeInQuad:"cubic-bezier(.55,.085,.68,.53)",easeOutQuad:"cubic-bezier(.25,.46,.45,.94)",easeInOutQuad:"cubic-bezier(.455,.03,.515,.955)",easeInQuart:"cubic-bezier(.895,.03,.685,.22)",easeOutQuart:"cubic-bezier(.165,.84,.44,1)",easeInOutQuart:"cubic-bezier(.77,0,.175,1)",easeInQuint:"cubic-bezier(.755,.05,.855,.06)",easeOutQuint:"cubic-bezier(.23,1,.32,1)",easeInOutQuint:"cubic-bezier(.86,0,.07,1)",easeInSine:"cubic-bezier(.47,0,.745,.715)",easeOutSine:"cubic-bezier(.39,.575,.565,1)",easeInOutSine:"cubic-bezier(.445,.05,.55,.95)",easeInBack:"cubic-bezier(.6,-.28,.735,.045)",easeOutBack:"cubic-bezier(.175, .885,.32,1.275)",easeInOutBack:"cubic-bezier(.68,-.55,.265,1.55)"};t.cssHooks["transit:transform"]={get:function(e){return t(e).data("transform")||new f},set:function(e,i){var r=i;if(!(r instanceof f)){r=new f(r)}if(n.transform==="WebkitTransform"&&!s){e.style[n.transform]=r.toString(true)}else{e.style[n.transform]=r.toString()}t(e).data("transform",r)}};t.cssHooks.transform={set:t.cssHooks["transit:transform"].set};t.cssHooks.filter={get:function(t){return t.style[n.filter]},set:function(t,e){t.style[n.filter]=e}};if(t.fn.jquery<"1.8"){t.cssHooks.transformOrigin={get:function(t){return t.style[n.transformOrigin]},set:function(t,e){t.style[n.transformOrigin]=e}};t.cssHooks.transition={get:function(t){return t.style[n.transition]},set:function(t,e){t.style[n.transition]=e}}}p("scale");p("scaleX");p("scaleY");p("translate");p("rotate");p("rotateX");p("rotateY");p("rotate3d");p("perspective");p("skewX");p("skewY");p("x",true);p("y",true);function f(t){if(typeof t==="string"){this.parse(t)}return this}f.prototype={setFromString:function(t,e){var n=typeof e==="string"?e.split(","):e.constructor===Array?e:[e];n.unshift(t);f.prototype.set.apply(this,n)},set:function(t){var e=Array.prototype.slice.apply(arguments,[1]);if(this.setter[t]){this.setter[t].apply(this,e)}else{this[t]=e.join(",")}},get:function(t){if(this.getter[t]){return this.getter[t].apply(this)}else{return this[t]||0}},setter:{rotate:function(t){this.rotate=y(t,"deg")},rotateX:function(t){this.rotateX=y(t,"deg")},rotateY:function(t){this.rotateY=y(t,"deg")},scale:function(t,e){if(e===undefined){e=t}this.scale=t+","+e},skewX:function(t){this.skewX=y(t,"deg")},skewY:function(t){this.skewY=y(t,"deg")},perspective:function(t){this.perspective=y(t,"px")},x:function(t){this.set("translate",t,null)},y:function(t){this.set("translate",null,t)},translate:function(t,e){if(this._translateX===undefined){this._translateX=0}if(this._translateY===undefined){this._translateY=0}if(t!==null&&t!==undefined){this._translateX=y(t,"px")}if(e!==null&&e!==undefined){this._translateY=y(e,"px")}this.translate=this._translateX+","+this._translateY}},getter:{x:function(){return this._translateX||0},y:function(){return this._translateY||0},scale:function(){var t=(this.scale||"1,1").split(",");if(t[0]){t[0]=parseFloat(t[0])}if(t[1]){t[1]=parseFloat(t[1])}return t[0]===t[1]?t[0]:t},rotate3d:function(){var t=(this.rotate3d||"0,0,0,0deg").split(",");for(var e=0;e<=3;++e){if(t[e]){t[e]=parseFloat(t[e])}}if(t[3]){t[3]=y(t[3],"deg")}return t}},parse:function(t){var e=this;t.replace(/([a-zA-Z0-9]+)\((.*?)\)/g,function(t,n,i){e.setFromString(n,i)})},toString:function(t){var e=[];for(var i in this){if(this.hasOwnProperty(i)){if(!n.transform3d&&(i==="rotateX"||i==="rotateY"||i==="perspective"||i==="transformOrigin")){continue}if(i[0]!=="_"){if(t&&i==="scale"){e.push(i+"3d("+this[i]+",1)")}else if(t&&i==="translate"){e.push(i+"3d("+this[i]+",0)")}else{e.push(i+"("+this[i]+")")}}}}return e.join(" ")}};function c(t,e,n){if(e===true){t.queue(n)}else if(e){t.queue(e,n)}else{t.each(function(){n.call(this)})}}function l(e){var i=[];t.each(e,function(e){e=t.camelCase(e);e=t.transit.propertyMap[e]||t.cssProps[e]||e;e=h(e);if(n[e])e=h(n[e]);if(t.inArray(e,i)===-1){i.push(e)}});return i}function d(e,n,i,r){var s=l(e);if(t.cssEase[i]){i=t.cssEase[i]}var a=""+b(n)+" "+i;if(parseInt(r,10)>0){a+=" "+b(r)}var o=[];t.each(s,function(t,e){o.push(e+" "+a)});return o.join(", ")}t.fn.transition=t.fn.transit=function(e,i,r,s){var a=this;var u=0;var f=true;var l=jQuery.extend(true,{},e);if(typeof i==="function"){s=i;i=undefined}if(typeof i==="object"){r=i.easing;u=i.delay||0;f=typeof i.queue==="undefined"?true:i.queue;s=i.complete;i=i.duration}if(typeof r==="function"){s=r;r=undefined}if(typeof l.easing!=="undefined"){r=l.easing;delete l.easing}if(typeof l.duration!=="undefined"){i=l.duration;delete l.duration}if(typeof l.complete!=="undefined"){s=l.complete;delete l.complete}if(typeof l.queue!=="undefined"){f=l.queue;delete l.queue}if(typeof l.delay!=="undefined"){u=l.delay;delete l.delay}if(typeof i==="undefined"){i=t.fx.speeds._default}if(typeof r==="undefined"){r=t.cssEase._default}i=b(i);var p=d(l,i,r,u);var h=t.transit.enabled&&n.transition;var y=h?parseInt(i,10)+parseInt(u,10):0;if(y===0){var g=function(t){a.css(l);if(s){s.apply(a)}if(t){t()}};c(a,f,g);return a}var m={};var v=function(i){var r=false;var u=function(){if(r){a.unbind(o,u)}if(y>0){a.each(function(){this.style[n.transition]=m[this]||null})}if(typeof s==="function"){s.apply(a)}if(typeof i==="function"){i()}};if(y>0&&o&&t.transit.useTransitionEnd){r=true;a.bind(o,u)}else{window.setTimeout(u,y)}a.each(function(){if(y>0){this.style[n.transition]=p}t(this).css(e)})};var z=function(t){this.offsetWidth;v(t)};c(a,f,z);return this};function p(e,i){if(!i){t.cssNumber[e]=true}t.transit.propertyMap[e]=n.transform;t.cssHooks[e]={get:function(n){var i=t(n).css("transit:transform");return i.get(e)},set:function(n,i){var r=t(n).css("transit:transform");r.setFromString(e,i);t(n).css({"transit:transform":r})}}}function h(t){return t.replace(/([A-Z])/g,function(t){return"-"+t.toLowerCase()})}function y(t,e){if(typeof t==="string"&&!t.match(/^[\-0-9\.]+$/)){return t}else{return""+t+e}}function b(e){var n=e;if(typeof n==="string"&&!n.match(/^[\-0-9\.]+/)){n=t.fx.speeds[n]||t.fx.speeds._default}return y(n,"ms")}t.transit.getTransitionValue=d;return t});
+
+
+        
+</script>
+
+
+</body>
+</html>
