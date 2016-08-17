@@ -1,2 +1,2 @@
-# https://condor.github.io
+# http://condor.github.io
 My Portfolio
